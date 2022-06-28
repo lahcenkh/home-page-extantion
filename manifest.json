@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "home page",
+    "version": "1.0.0",
+    "description": "personnal home page",
+    "action": {
+        "default_icon": "img/home.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    }
+}

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@200;400;500&display=swap');
+@import url('110_Besmellah Normal.ttf');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(51 57 76);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    width: 500px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    min-height: 100vh;
+}
+
+.container {
+    padding-bottom: .7em;
+}
+
+.title {
+    color: rgb(235, 239, 252);
+}
+
+.box {
+    padding-top: 8px;
+    background-color: rgb(79, 87, 112);
+    width: 95px;
+    height: 100px;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+.box-container {
+    display: flex;
+    gap: .7em;
+}
+
+.box img {
+    width: 45px;
+    height: 45px;
+}
+
+.box a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    text-decoration: none;
+    color: rgb(235, 239, 252);
+}
+
+.box:hover {
+    box-shadow: 2px 3px rgb(209, 65, 65);
+}
+
+
+/* ------------- photo background -------------- */
+
+.bg-img {
+    width: 550px;
+    height: 426px;
+    border-image:space;
+    border-radius: 10px;
+    filter: grayscale(50%);
+    background-image: url(img/3.jfif);
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    
+}
+
+.date-time {
+    padding-left: 10px;
+    background-color: rgb( 99, 99, 99, .30);
+    width: fit-content;
+    border-radius: 10px;
+    padding: .5em;
+    margin-left: 2.3em;
+    margin-top: .5em;
+}
+
+.social {
+    padding-bottom: 0;
+}
+
+#time {
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(225, 240, 255);
+}
+
+#date {
+    font-size: 21.5px;
+    font-weight: 400;
+    color: rgb(225, 240, 255);
+}
+
+/* ------------- photo background -------------- */
+
+.qura-container {
+	background-color: rgb( 100, 100, 100, .30);
+	color: white;
+	border-radius: 10px;
+	padding: .5em;
+	width: 90%;
+	justify-self: center;
+    text-align: center;
+	align-self: center;
+    margin-top: 3.5em;
+}
+
+#qran {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 1.5em;
+}
+
+
+
+@media (max-width: 1073px) {
+  main {
+    flex-direction: column;
+    
+
+}
+.bg-img {
+    width: 505px;
+    	
+}
+.wrapper {
+    margin-top: 3em;
+}
+}
